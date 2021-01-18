@@ -11,12 +11,23 @@ let imgMartinS = document.querySelector(`#martins`);
 let imgRasmus = document.querySelector(`#rasmus`);
 
 let allClavistas = document.querySelectorAll(`.allClavistas`);
+let allBeer = document.querySelectorAll(`.beer`);
 let zIndex = 0;
 
 sauna1.addEventListener(`click`, moveImg);
 
 function moveImg(e) {
   e.preventDefault();
+
+  for (let beer of allBeer) {
+    beer.addEventListener(`click`, function () {
+      beer.style.top = `${e.offsetY +15}px`;
+      beer.style.left = `${e.offsetX - 285}px`;
+      zIndex += 1;
+      beer.style.zIndex = zIndex;
+    });
+  }
+
 
   for (let clavista of allClavistas) {
     clavista.addEventListener(`click`, function () {

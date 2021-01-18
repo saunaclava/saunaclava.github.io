@@ -1,22 +1,30 @@
-#sauna1{
-    width: 1000px;
+#sauna1 {
+  width: 1000px;
 }
 
-.allClavistas{
-    position: absolute;
-    width: 100px;
-    /* height: 400px; */
+.allClavistas {
+  position: absolute;
+  width: 100px;
+  /* height: 400px; */
 }
 
-#adam{
-    position: absolute;
-
+.beer {
+  position: absolute;
+  height: 80px;
 }
 
-#marty{
-    position: absolute;
-
+#divWithBeer {
+  position: absolute;
+  top: 0px;
+  left: 250px;
 }
 
+#adam {
+  position: absolute;
+}
+
+#marty {
+  position: absolute;
+}
 
 /* new */
