@@ -23,4 +23,11 @@ function moveImg(e) {
       clavista.style.left = `${e.offsetX - 50}px`;
     });
   }
+
+  for (let clavista of allClavistas) {
+    clavista.addEventListener(`dblclick`, function () {
+      clavista.style.top = ``;
+      clavista.style.left = ``;
+    });
+  }
 }
