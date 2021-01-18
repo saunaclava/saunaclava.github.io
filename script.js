@@ -10,3 +10,5 @@ function moveImg(e) {
   adam.style.left = `${e.clientX -50}px`;
   console.log(e);
 }
+
+console.log(`Test`);
