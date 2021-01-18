@@ -126,7 +126,7 @@ function moveImg(e) {
       } else if (clavista.id === `marty`) {
         textDiv.textContent = `Marty in da Sauna`;
       } else if (clavista.id === `adam`) {
-        textDiv.textContent = `Sist men inte minst, Adam tar plats och ton, välkommen!`;
+        textDiv.textContent = `Sist men inte minst, Adam tar plats, välkommen!`;
       }
     });
   }
