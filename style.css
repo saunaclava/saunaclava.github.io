@@ -19,12 +19,12 @@
   left: 250px;
 }
 
-#adam {
-  position: absolute;
-}
-
-#marty {
-  position: absolute;
+#textDiv{
+    position: absolute;
+    top: 125px;
+    background: white;
+    padding: 1%;
+    font-size: 2em;
 }
 
 #uffe{
