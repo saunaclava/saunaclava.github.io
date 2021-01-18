@@ -1,0 +1,14 @@
+#sauna1{
+    width: 1000px;
+}
+
+.memberspics{
+    width: 100px
+    /* height: 400px; */
+}
+
+#adam{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
