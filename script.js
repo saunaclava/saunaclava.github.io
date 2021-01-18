@@ -12,19 +12,7 @@ let imgRasmus = document.querySelector(`#rasmus`);
 
 let allClavistas = document.querySelectorAll(`.allClavistas`);
 
-console.log(adam);
-
-// ["dragenter", "dragover", "dragleave", "drop"].forEach((eventName) => {
-//   dropArea.addEventListener(eventName, preventDefaults, false);
-// });
-
-// function preventDefaults(e) {
-//   e.preventDefault();
-//   e.stopPropagation();
-// }
-
 sauna1.addEventListener(`click`, moveImg);
-
 
 function moveImg(e) {
   e.preventDefault();
