@@ -25,6 +25,13 @@ function moveImg(e) {
   }
 
   for (let clavista of allClavistas) {
+    clavista.addEventListener(`touchmove`, function () {
+      clavista.style.top = ``;
+      clavista.style.left = ``;
+    });
+  }
+
+  for (let clavista of allClavistas) {
     clavista.addEventListener(`dblclick`, function () {
       clavista.style.top = ``;
       clavista.style.left = ``;
