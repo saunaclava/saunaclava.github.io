@@ -11,6 +11,7 @@ let imgMartinS = document.querySelector(`#martins`);
 let imgRasmus = document.querySelector(`#rasmus`);
 
 let allClavistas = document.querySelectorAll(`.allClavistas`);
+let zIndex = 0;
 
 sauna1.addEventListener(`click`, moveImg);
 
@@ -21,6 +22,8 @@ function moveImg(e) {
     clavista.addEventListener(`click`, function () {
       clavista.style.top = `${e.offsetY - 50}px`;
       clavista.style.left = `${e.offsetX - 50}px`;
+      zIndex += 1;
+      clavista.style.zIndex = zIndex;
     });
   }
 
