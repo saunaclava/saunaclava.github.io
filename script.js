@@ -24,18 +24,23 @@ console.log(adam);
 // }
 
 sauna1.addEventListener(`click`, moveImg);
+let Y = 0;
+let X = 0;
 
 function moveImg(e) {
   e.preventDefault();
 
+  Y = e.clientY;
+  X = e.clientX;
+  
+  console.log(Y, X);
+
   for (let clavista of allClavistas) {
-    console.log(clavista);
+
     clavista.addEventListener(`click`, function () {
-      clavista.style.top = `${e.clientY - 150}px`;
+      clavista.style.top = `${e.clientY +30}px`;
       clavista.style.left = `${e.clientX - 50}px`;
 
-      console.log(`hello ${clavista}`);
-      console.dir(clavista);
     });
   }
 }
