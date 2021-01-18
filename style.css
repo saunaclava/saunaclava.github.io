@@ -2,15 +2,21 @@
     width: 1000px;
 }
 
-.memberspics{
-    width: 100px
+.allClavistas{
+    position: absolute;
+    width: 100px;
     /* height: 400px; */
 }
 
 #adam{
     position: absolute;
-    top: 40px;
-    left: 50px;
+
 }
+
+#marty{
+    position: absolute;
+
+}
+
 
 /* new */
